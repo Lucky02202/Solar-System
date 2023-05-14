@@ -1,0 +1,90 @@
+/* COMMON CODE */
+.sun,.mercury,.venus,.earth,.mars,.jupiter,.saturn,.uranus,.neptune{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+}
+
+
+/* SUN */
+.sun{
+    box-shadow: 0px 0px 100px yellow;
+    position: absolute;
+    height: 5vh;
+    width: 5vh;
+    left: 3vh;
+}
+
+/* MERCURY */
+.mercury{
+    height: 5vh;
+    width: 5vh;
+    border-radius: 3vh;
+    left: 4vh;
+}
+
+
+/* VENUS */
+.venus{
+    height: 5vh;
+    width: 5vh;
+    border-radius: 3vh;
+    left: 7.5vh;
+}
+
+/* EARTH */
+.earth{
+    height: 4vh;
+    width: 4vh;
+    border-radius: 3vh;
+    left: 11.5vh;
+}
+
+/* MARS */
+.mars{
+    height: 4vh;
+    width: 4vh;
+    border-radius: 3vh;
+    left: 15.5vh;
+
+}
+
+/* JUPITER */
+.jupiter{
+    height: 8vh;
+    width: 8vh;
+    border-radius: 3vh;
+    left: 20.5vh;
+    bottom: 4vh;
+
+}
+
+/* SATURN */
+.saturn{
+    height: 10vh;
+    width: 10vh;
+    border-radius: 3vh;
+    left: 28.5vh;
+    bottom: 5vh;
+
+}
+
+/* URANUS */
+.uranus{
+    height: 5vh;
+    width: 5vh;
+    border-radius: 3vh;
+    left: 37vh;
+
+}
+
+/* NEPTUNE */
+.neptune{
+    height: 5vh;
+    width: 5vh;
+    border-radius: 3vh;
+    left: 42vh;
+
+}
